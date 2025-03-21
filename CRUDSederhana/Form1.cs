@@ -27,46 +27,18 @@ namespace CRUDSederhana
             LoadData();
         }
 
-
-        private void label1_Click(object sender, EventArgs e)
+        // Fungsi untuk mengosongkan semua input pada TextBox
+        private void ClearForm()
         {
-
+            txtNIM.Clear();
+            txtNama.Clear();
+            txtEmail.Clear();
+            txtTelepon.Clear();
+            txtAlamat.Clear();
+            txtNIM.Focus();  // Fokus kembali ke NIM agar user siap memasukkan data baru
         }
 
-        private void label2_Click(object sender, EventArgs e)
-        {
 
-        }
-
-        private void label5_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label4_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button3_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label3_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button5_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button4_Click(object sender, EventArgs e)
-        {
-
-        }
     }
 }
 
