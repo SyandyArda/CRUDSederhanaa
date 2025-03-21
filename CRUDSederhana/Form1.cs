@@ -21,10 +21,10 @@ namespace CRUDSederhana
             InitializeComponent();
         }
 
-        //event saat form pertama kali dimuat
+        // Event saat form pertama kali dimuat
         private void Form1_Load(object sender, EventArgs e)
         {
-            LoadData()
+            LoadData();
         }
 
 
